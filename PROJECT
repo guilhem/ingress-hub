@@ -1,0 +1,7 @@
+version: "2"
+domain: barpilot.io
+repo: github.com/guilhem/boardingbridge
+resources:
+- group: boardingbridge
+  version: v1alpha1
+  kind: Service
